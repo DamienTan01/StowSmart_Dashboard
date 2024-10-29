@@ -2,7 +2,7 @@ import React from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import UBLogo from "@/resources/images/logo.png";
 import Image from "next/image";
-import styles from "@/styles/Login.module.css";
+import scss from "@/styles/Login.module.scss";
 import { Box, InputAdornment, TextField, IconButton, Button } from "@mui/material";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 
@@ -28,25 +28,25 @@ const Login = () => {
     };
 
     return (
-        <main className={styles.page}>
+        <main className={scss.page}>
             {/* Logo and App Name */}
-            <Box className={styles.topBar}>
+            <Box className={scss.topBar}>
                 <Image
-                    className={styles.logo}
+                    className={scss.logo}
                     src={UBLogo}
                     alt="UB Logo"
                 />
 
-                <h1 className={styles.appName}>Stowsmart RFID Cabinet Dashboard</h1>
+                <h1 className={scss.appName}>Stowsmart RFID Cabinet Dashboard</h1>
             </Box>
 
-            <Box className={styles.customBox}>
+            <Box className={scss.customBox}>
                 {/* Title */}
-                <h1 className={styles.loginTitleText}>Welcome Back!</h1>
-                <p className={styles.loginSubText}>Welcome Back, Please Enter Your Details</p>
+                <h1 className={scss.loginTitleText}>Welcome Back!</h1>
+                <p className={scss.loginSubText}>Welcome Back, Please Enter Your Details</p>
 
                 {/* Form */}
-                <Box className={styles.inputGroup}>
+                <Box className={scss.inputGroup}>
                     <TextField
                         id="email"
                         variant="outlined"
@@ -54,7 +54,7 @@ const Login = () => {
                         InputProps={{
                             startAdornment: (
                                 <InputAdornment position="start">
-                                    <MailOutlineIcon className={styles.icon} />
+                                    <MailOutlineIcon className={scss.icon} />
                                 </InputAdornment>
                             ),
                             sx: {
@@ -65,12 +65,12 @@ const Login = () => {
                             },
                         }}
 
-                        className={styles.emailField} // Add your custom styles here
+                        className={scss.emailField} // Add your custom styles here
                     />
 
-                    <Box className={styles.forgotPassBox}>
+                    <Box className={scss.forgotPassBox}>
                         <Button
-                            className={styles.forgotPassBtn}
+                            className={scss.forgotPassBtn}
                             variant="text"
                             disableRipple
                         >
@@ -86,7 +86,7 @@ const Login = () => {
                         InputProps={{
                             startAdornment: (
                                 <InputAdornment position="start">
-                                    <PasswordIcon className={styles.icon} />
+                                    <PasswordIcon className={scss.icon} />
                                 </InputAdornment>
                             ),
                             endAdornment: (
@@ -109,13 +109,13 @@ const Login = () => {
                                 },
                             },
                         }}
-                        className={styles.passField} // Add your custom styles here
+                        className={scss.passField} // Add your custom styles here
                     />
                 </Box>
 
-                <Box className={styles.centerBox}>
+                <Box className={scss.centerBox}>
                     <Button
-                        className={styles.loginBtn}
+                        className={scss.loginBtn}
                         variant="contained"
                     >
                         Login

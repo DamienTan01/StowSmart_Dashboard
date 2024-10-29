@@ -1,0 +1,18 @@
+.topBar {
+    background-color: #a8d3fe;
+    display: flex;
+    align-items: left;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.appName {
+    margin: 0 0 0 10px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
