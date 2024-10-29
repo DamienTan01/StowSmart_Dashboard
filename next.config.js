@@ -1,5 +1,5 @@
-// import type { NextConfig } from "next";
-import('next').NextConfig;
+// Windows Config
+// import type { NextConfig } from "next";=
 
 // const nextConfig: NextConfig = {
 //   /* config options here */
@@ -7,6 +7,9 @@ import('next').NextConfig;
 // };
 
 // export default nextConfig;
+
+// Mac Config
+import('next').NextConfig;
 
 const config = {
   reactStrictMode: true,

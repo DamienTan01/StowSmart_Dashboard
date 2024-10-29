@@ -1,108 +1,108 @@
-.page {
-    margin: auto;
-    padding: 1.25rem;
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #D0E4FC, #F0F0EE);
-}
-
 // .page {
-//     padding: 20px;
-//     min-height: 100vh; /* Full height */
+//     margin: auto;
+//     padding: 1.25rem;
+//     min-height: 100vh;
 //     background: linear-gradient(to bottom, #D0E4FC, #F0F0EE);
 // }
 
-// .topBar {
-//     display: flex;
-//     align-items: center;
-//     gap: 20px;
-// }
+.page {
+    padding: 20px;
+    min-height: 100vh; /* Full height */
+    background: linear-gradient(to bottom, #D0E4FC, #F0F0EE);
+}
 
-// .logo {
-//     padding: 15px;
-//     width: 150px;
-//     height: 150px;
-//     background-color: white;
-//     border-radius: 50%;
-// }
+.topBar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
-// .appName {
-//     color: black;
-//     text-align: left;
-// }
+.logo {
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+}
 
-// .customBox {
-//     margin: 30px 350px 0 350px;
-//     padding: 30px;
-//     background-color: white;
-//     border-radius: 15px;
-//     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-// }
+.appName {
+    color: black;
+    text-align: left;
+}
 
-// .loginTitleText {
-//     color: black;
-//     text-align: center;
-//     font-size: 35px;
-// }
+.customBox {
+    margin: 30px 350px 0 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
 
-// .loginSubText {
-//     color: grey;
-//     text-align: center;
-//     font-size: 22px;
-//     margin-bottom: 30px;
-// }
+.loginTitleText {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
 
-// .inputGroup {
-//     display: flex;
-//     flex-direction: column;
-//     width: 100%;
-// }
+.loginSubText {
+    color: grey;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
 
-// .icon {
-//     color: gray;
-// }
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
-// .emailField {
-//     margin: 20px 100px 0 100px;
-// }
+.icon {
+    color: gray;
+}
 
-// .forgotPassBox {
-//     margin: 25px 100px -5px 100px;
-//     text-align: right;
-// }
+.emailField {
+    margin: 20px 100px 0 100px;
+}
 
-// .forgotPassBtn {
-//     text-decoration: underline;
-//     color: black;
-//     font-size: 13px;
-//     font-weight: bold;
-// }
+.forgotPassBox {
+    margin: 25px 100px -5px 100px;
+    text-align: right;
+}
 
-// .forgotPassBtn:hover {
-//     background-color: transparent;
-// }
+.forgotPassBtn {
+    text-decoration: underline;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
 
-// .passField {
-//     margin: 0 100px 0 100px;
-// }
+.forgotPassBtn:hover {
+    background-color: transparent;
+}
 
-// .centerBox {
-//     display: flex;
-//     justify-content: center;
-//     align-content: center;
-// }
+.passField {
+    margin: 0 100px 0 100px;
+}
 
-// .loginBtn {
-//     margin: 50px 200px 0 200px;
-//     width: 100%;
-//     height: auto;
-//     background-color: #1173B4;
-//     color: white;
-//     font-size: 25px;
-//     font-weight: bold;
-//     border-radius: 8px;
-//     text-transform: none; /* Disable uppercase text */
-// }
+.centerBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
-// .loginBtn:hover {
-//     background-color: #0c588b;
-// }
+.loginBtn {
+    margin: 50px 200px 0 200px;
+    width: 100%;
+    height: auto;
+    background-color: #1173B4;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: none; /* Disable uppercase text */
+}
+
+.loginBtn:hover {
+    background-color: #0c588b;
+}
